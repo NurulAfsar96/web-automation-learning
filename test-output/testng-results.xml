@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-04T22:44:42 BDT" name="Default suite" finished-at="2023-08-04T22:45:40 BDT" duration-ms="58910">
+  <suite started-at="2023-08-05T10:06:57 BDT" name="Default suite" finished-at="2023-08-05T10:07:41 BDT" duration-ms="43524">
     <groups>
     </groups>
-    <test started-at="2023-08-04T22:44:42 BDT" name="Default test" finished-at="2023-08-04T22:45:40 BDT" duration-ms="58910">
-      <class name="Automation.webAutomationBasic.BrowserCommand">
-        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.BrowserCommand@73eb439a]" started-at="2023-08-04T22:44:37 BDT" name="start" finished-at="2023-08-04T22:44:42 BDT" duration-ms="4456" status="PASS">
+    <test started-at="2023-08-05T10:06:57 BDT" name="Default test" finished-at="2023-08-05T10:07:41 BDT" duration-ms="43524">
+      <class name="Automation.webAutomationBasic.AlertHandling">
+        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.AlertHandling@73eb439a]" started-at="2023-08-05T10:06:53 BDT" name="start" finished-at="2023-08-05T10:06:57 BDT" duration-ms="4249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="BrowserCommands()[pri:0, instance:Automation.webAutomationBasic.BrowserCommand@73eb439a]" started-at="2023-08-04T22:44:42 BDT" name="BrowserCommands" finished-at="2023-08-04T22:45:40 BDT" duration-ms="58875" status="PASS">
+        <test-method signature="AlertsTest()[pri:0, instance:Automation.webAutomationBasic.AlertHandling@73eb439a]" started-at="2023-08-05T10:06:58 BDT" name="AlertsTest" finished-at="2023-08-05T10:07:41 BDT" duration-ms="43494" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserCommands -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.BrowserCommand@73eb439a]" started-at="2023-08-04T22:45:40 BDT" name="close" finished-at="2023-08-04T22:45:41 BDT" duration-ms="193" status="PASS">
+        </test-method> <!-- AlertsTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.AlertHandling@73eb439a]" started-at="2023-08-05T10:07:41 BDT" name="close" finished-at="2023-08-05T10:07:41 BDT" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Automation.webAutomationBasic.BrowserCommand -->
+      </class> <!-- Automation.webAutomationBasic.AlertHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
