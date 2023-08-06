@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-05T22:59:30 BDT" name="Default suite" finished-at="2023-08-05T23:00:11 BDT" duration-ms="40653">
+  <suite started-at="2023-08-06T11:13:45 BDT" name="Default suite" finished-at="2023-08-06T11:13:59 BDT" duration-ms="14183">
     <groups>
     </groups>
-    <test started-at="2023-08-05T22:59:30 BDT" name="Default test" finished-at="2023-08-05T23:00:11 BDT" duration-ms="40653">
-      <class name="Automation.webAutomationBasic.MouseHoverHandling">
-        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.MouseHoverHandling@73eb439a]" started-at="2023-08-05T22:59:26 BDT" name="start" finished-at="2023-08-05T22:59:30 BDT" duration-ms="4108" status="PASS">
+    <test started-at="2023-08-06T11:13:45 BDT" name="Default test" finished-at="2023-08-06T11:13:59 BDT" duration-ms="14183">
+      <class name="Automation.webAutomationBasic.ScrollHandling">
+        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.ScrollHandling@73eb439a]" started-at="2023-08-06T11:13:41 BDT" name="start" finished-at="2023-08-06T11:13:45 BDT" duration-ms="4107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="MouseHandle()[pri:0, instance:Automation.webAutomationBasic.MouseHoverHandling@73eb439a]" started-at="2023-08-05T22:59:31 BDT" name="MouseHandle" finished-at="2023-08-05T23:00:11 BDT" duration-ms="40590" status="PASS">
+        <test-method signature="Scroll()[pri:0, instance:Automation.webAutomationBasic.ScrollHandling@73eb439a]" started-at="2023-08-06T11:13:45 BDT" name="Scroll" finished-at="2023-08-06T11:13:59 BDT" duration-ms="14144" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MouseHandle -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.MouseHoverHandling@73eb439a]" started-at="2023-08-05T23:00:11 BDT" name="close" finished-at="2023-08-05T23:00:11 BDT" duration-ms="225" status="PASS">
+        </test-method> <!-- Scroll -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.ScrollHandling@73eb439a]" started-at="2023-08-06T11:13:59 BDT" name="close" finished-at="2023-08-06T11:13:59 BDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Automation.webAutomationBasic.MouseHoverHandling -->
+      </class> <!-- Automation.webAutomationBasic.ScrollHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

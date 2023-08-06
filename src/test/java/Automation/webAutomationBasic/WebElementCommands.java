@@ -13,7 +13,7 @@ public class WebElementCommands extends BasicDriver {
 	
 		driver.manage().window().maximize();
 		driver.get(url);
-		//SendKeys()-->How to send data;
+		//SendKeys()-->To send data;
 		WebElement firstName = driver.findElement(By.xpath("//input[@id='firstName']"));
 		firstName.sendKeys("Nurul");
 		Thread.sleep(5000);
