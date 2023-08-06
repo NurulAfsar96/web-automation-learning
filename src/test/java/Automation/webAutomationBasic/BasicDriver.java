@@ -34,6 +34,6 @@ public class BasicDriver {
 		}
 	}
 	@AfterSuite
-	public void close() { driver.close(); }
+	public void close() { /*driver.close();*/ driver.quit(); }
 
 }
