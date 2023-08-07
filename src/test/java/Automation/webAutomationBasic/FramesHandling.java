@@ -14,8 +14,8 @@ public class FramesHandling extends BasicDriver {
 		driver.manage().window().maximize();
 		driver.get(url);
 		
-		int iframeSize = driver.findElements(By.tagName("iframe")).size();
-		System.out.println(iframeSize);
+		//int iframeSize = driver.findElements(By.tagName("iframe")).size();
+		//System.out.println(iframeSize);
 		
 		driver.switchTo().frame("iframeResult");
 	
@@ -24,5 +24,8 @@ public class FramesHandling extends BasicDriver {
 		Thread.sleep(5000);
 		frame.sendKeys("Afsar");
 		Thread.sleep(5000);
+		
+		//Switch to default/Root frame whenever an iframe is finished
+		driver.switchTo().defaultContent();
 	}
 }
