@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T12:53:03 BDT" name="Default suite" finished-at="2023-08-06T12:53:30 BDT" duration-ms="27777">
+  <suite started-at="2023-08-07T18:47:05 BDT" name="Default suite" finished-at="2023-08-07T18:47:18 BDT" duration-ms="13719">
     <groups>
     </groups>
-    <test started-at="2023-08-06T12:53:03 BDT" name="Default test" finished-at="2023-08-06T12:53:30 BDT" duration-ms="27777">
-      <class name="Automation.webAutomationBasic.CopyPasteMethod">
-        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.CopyPasteMethod@73eb439a]" started-at="2023-08-06T12:52:57 BDT" name="start" finished-at="2023-08-06T12:53:03 BDT" duration-ms="5422" status="PASS">
+    <test started-at="2023-08-07T18:47:05 BDT" name="Default test" finished-at="2023-08-07T18:47:18 BDT" duration-ms="13719">
+      <class name="Automation.webAutomationBasic.FramesHandling">
+        <test-method is-config="true" signature="start()[pri:0, instance:Automation.webAutomationBasic.FramesHandling@73eb439a]" started-at="2023-08-07T18:47:01 BDT" name="start" finished-at="2023-08-07T18:47:05 BDT" duration-ms="3769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="CopyPaste()[pri:0, instance:Automation.webAutomationBasic.CopyPasteMethod@73eb439a]" started-at="2023-08-06T12:53:03 BDT" name="CopyPaste" finished-at="2023-08-06T12:53:30 BDT" duration-ms="27734" status="PASS">
+        <test-method signature="IFrames()[pri:0, instance:Automation.webAutomationBasic.FramesHandling@73eb439a]" started-at="2023-08-07T18:47:05 BDT" name="IFrames" finished-at="2023-08-07T18:47:18 BDT" duration-ms="13676" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CopyPaste -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.CopyPasteMethod@73eb439a]" started-at="2023-08-06T12:53:30 BDT" name="close" finished-at="2023-08-06T12:53:31 BDT" duration-ms="314" status="PASS">
+        </test-method> <!-- IFrames -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.webAutomationBasic.FramesHandling@73eb439a]" started-at="2023-08-07T18:47:18 BDT" name="close" finished-at="2023-08-07T18:47:19 BDT" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Automation.webAutomationBasic.CopyPasteMethod -->
+      </class> <!-- Automation.webAutomationBasic.FramesHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

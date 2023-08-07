@@ -16,7 +16,7 @@ public class CopyPasteMethod extends BasicDriver {
 		driver.get(url);
 		
 		WebElement fname = driver.findElement(By.xpath("//input[@id='firstName']"));
-		WebElement lname = driver.findElement(By.xpath("//input[@id='lastName']"));
+		//WebElement lname = driver.findElement(By.xpath("//input[@id='lastName']"));
 		fname.sendKeys("AfsarJony");
 		Thread.sleep(3000);
 		/*
